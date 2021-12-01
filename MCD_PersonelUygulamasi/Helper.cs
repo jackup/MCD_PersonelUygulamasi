@@ -11,6 +11,15 @@ namespace MCD_PersonelUygulamasi
         //public void Test() { } Static class içinde static olmayan metod oluşturulamaz.
         //public string Tanim { get; set; } Static class içinde static olmayan field - property tanımlamaları yapılamaz.
 
+        /*
+        public Helper()
+        {
+            //Her nesne örneği alındığında 
+        }
+        */
+
+
+
         static Helper()
         {
             //Uygulama içerisinde ne kadar çağırılırsa çağırılsın sadece ilk çağrılmada çalışırlar.
